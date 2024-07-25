@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Match Predictor</title>
+</head>
+
+<body>
+    <h1>Premier League Predictor</h1>
+    <form method="post">
+        <label for="home_team">Home Team:</label>
+        <input type="text" id="home_team" name="home_team" required>
+        <br>
+        <label for="away_team">Away Team:</label>
+        <input type="text" id="away_team" name="away_team" required>
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+    <h2>Prediction:</h2>
+    <p>Home Team Goals: {{ prediction[0] }}</p>
+    <p>Away Team Goals: {{ prediction[1] }}</p>
+    {% endif %}
+</body>
+
+</html>
