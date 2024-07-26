@@ -1,6 +1,6 @@
 # Football Match Predictor
 
-This project predicts the number of goals for the home and away teams in football matches using machine learning. The application is built with Python and Flask, and uses scikit-learn for the model training.
+This project predicts the number of goals for the home and away teams in football matches (Premier League) using machine learning. The application is built with Python and Flask, and uses scikit-learn for the model training.
 
 ## Table of Contents
 - [Football Match Predictor](#football-match-predictor)
@@ -14,8 +14,8 @@ This project predicts the number of goals for the home and away teams in footbal
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/football-match-predictor.git
-    cd football-match-predictor
+    git clone https://github.com/xoaryaa/football_match_predictor.git
+    cd football_match_predictor
     ```
 
 2. **Create a virtual environment and activate it:**
@@ -65,5 +65,5 @@ The `match_data.csv` file should be placed in the `data` directory. It should co
 
 The `model_training.py` script handles model training. It loads the data, encodes the team names, trains two separate models for predicting home and away goals, and saves the trained models and label encoder.
 
-```python
+
 
