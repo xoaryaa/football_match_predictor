@@ -1,4 +1,5 @@
 # Football Match Predictor
+![Description of GIF](fb.gif)
 
 This project predicts the number of goals for the home and away teams in football matches (Premier League) using machine learning. The application is built with Python and Flask, and uses scikit-learn for the model training.
 
